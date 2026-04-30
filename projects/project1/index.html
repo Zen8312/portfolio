@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Alpha | Lorem Ipsum Portfolio</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div data-include="../../components/navbar.html"></div>
+
+    <main>
+        <section class="project-header">
+            <div class="container">
+                <a href="/#projects" class="text-link" style="margin-bottom: 2rem; display: inline-block;">&larr; Back to Portfolio</a>
+                <h1>Project Alpha: Educational Data Dashboard</h1>
+                <p class="large-text">An automated ETL (Extract, Transform, Load) dashboard built to track student data analytics and reduce manual reporting by 40%.</p>
+                
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <h4>My Role</h4>
+                        <p>Frontend Dev & UI Design</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Timeline</h4>
+                        <p>4 Weeks</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Tech Stack</h4>
+                        <p>HTML, CSS, JS, Python</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Live Link</h4>
+                        <a href="#" class="text-link">View Live Site &#8599;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section project-content">
+            <div class="container">
+                
+                <div class="project-img project-1-bg" style="height: 450px; margin-top: 0;"></div>
+
+                <div class="grid-2" style="margin-top: 4rem;">
+                    <div>
+                        <h2>The Challenge</h2>
+                        <p>The client's administrative team was struggling with manual data entry across multiple Excel sheets. Tracking student records, normalizing subject data, and matching student IDs was a time-consuming process highly prone to human error. They needed a streamlined interface that non-technical staff could use to automate this workflow seamlessly.</p>
+                    </div>
+                    <div>
+                        <h2>The Solution</h2>
+                        <p>I architected a clean, one-page web dashboard using semantic HTML, structured CSS, and Vanilla JavaScript. By connecting this frontend to a lightweight Python ETL backend, I created a "drag-and-drop" interface. Staff could upload raw `.csv` files, and the system would automatically clean, map, and output processed reports.</p>
+                    </div>
+                </div>
+
+                <div class="project-img project-2-bg" style="height: 300px; margin-top: 4rem;"></div>
+
+                <div style="margin-top: 4rem; text-align: center; max-width: 700px; margin-left: auto; margin-right: auto;">
+                    <h2>The Impact</h2>
+                    <p class="large-text" style="color: var(--primary);">Manual data processing time was reduced from <strong>15 hours per week</strong> to just <strong>15 minutes</strong>. Error rates dropped to near zero.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section bg-light text-center">
+            <div class="container">
+                <h2 style="margin-bottom: 1rem;">Impressed by these results?</h2>
+                <p style="margin-bottom: 2rem;">Let's build something great for your business.</p>
+                <a href="/#contact" class="btn btn-primary">Let's Work Together</a>
+                <a href="../project2/index.html" class="btn btn-secondary">View Next Project &rarr;</a>
+            </div>
+        </section>
+
+    </main>
+
+    <div data-include="../../components/footer.html"></div>
+
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>
